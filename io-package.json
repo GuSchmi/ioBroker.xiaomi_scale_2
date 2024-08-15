@@ -1,0 +1,94 @@
+{
+	"common": {
+		"name": "xiaomi_scale_2",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"uk": "Початкова версія",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "Xiaomi Scale 2",
+		"titleLang": {
+			"en": "Xiaomi Scale 2",
+			"de": "Xiaomi-Skala 2",
+			"ru": "Сяоми Весы 2",
+			"pt": "Escala Xiaomi 2",
+			"nl": "Xiaomi-schaal 2",
+			"fr": "Balance Xiaomi 2",
+			"it": "Xiaomi Scala 2",
+			"es": "Báscula Xiaomi 2",
+			"pl": "Skala Xiaomi 2",
+			"uk": "Шкала Xiaomi 2",
+			"zh-cn": "小米体重秤2"
+		},
+		"desc": {
+			"en": "xiaomi_scale_2",
+			"de": "xiaomi_scale_2",
+			"ru": "xiaomi_scale_2",
+			"pt": "xiaomi_scale_2",
+			"nl": "xiaomi_scale_2",
+			"fr": "xiaomi_scale_2",
+			"it": "xiaomi_scale_2",
+			"es": "xiaomi_scale_2",
+			"pl": "xiaomi_scale_2",
+			"uk": "xiaomi_scale_2",
+			"zh-cn": "xiaomi_scale_2"
+		},
+		"authors": [
+			"GuSchmi <GuSchmi_GitHub@wir-schmidt.de>"
+		],
+		"keywords": [
+			"ioBroker",
+			"template",
+			"Smart Home",
+			"home automation"
+		],
+		"license": "MIT",
+		"licenseInformation": {
+			"type": "free",
+			"license": "MIT"
+		},
+		"platform": "Javascript/Node.js",
+		"main": "main.js",
+		"icon": "xiaomi_scale_2.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/GuSchmi/ioBroker.xiaomi_scale_2/main/admin/xiaomi_scale_2.png",
+		"readme": "https://github.com/GuSchmi/ioBroker.xiaomi_scale_2/blob/main/README.md",
+		"loglevel": "info",
+		"tier": 3,
+		"mode": "daemon",
+		"type": "health",
+		"compact": true,
+		"connectionType": "local",
+		"dataSource": "push",
+		"adminUI": {
+			"config": "json"
+		},
+		"dependencies": [
+			{
+				"js-controller": ">=3.3.22"
+			}
+		],
+		"globalDependencies": [
+			{
+				"admin": ">=5.1.13"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}
